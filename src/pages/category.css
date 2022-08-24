@@ -1,0 +1,15 @@
+.card{
+    height:150px;
+    width:150px;
+    display: flex;
+    justify-content: center;
+}
+.default
+{
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+    padding-top: 10%;
+
+    
+}

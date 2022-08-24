@@ -7,7 +7,56 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.navbar{
+background-color: #e3f2fd;
+}
+.a{
+ background-color: aqua;
+ /*width: 100%;*/
+justify-items: center;
+ padding: 5px;
+ justify-items:space-around;
+}
+.a ul li{
+  padding-left: 4rem;
+}
+.navbar-brand{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 50px;
+  align-items: center;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-left {
+  font-family: 'Pacifico', cursive;
+  color:#F4BFBF;
+  position: absolute;
+  top: 300px;
+  left: 35px;
+}
+
+
+.login-form-container{
+  margin: 3%;
+  padding: 3%;
+  background:pink;
+  width: 50%;
+  align-items: center;
+}
+.aboutmain {
+  background-image: 
+  url("G:\my-app\src\pages\aboutimg.jpg");
+  background-size: "cover";
+  height: 100vh;
+  margin-top: -70px;
+  font-size:50px;
+  background-repeat:no-repeat; 
 }
